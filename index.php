@@ -1,6 +1,6 @@
 <?php
 
-require_once('./luas_lingkaran.php');
+require_once('./LuasLingkaran.php');
 
 use App\Math\LuasLingkaran;
 
