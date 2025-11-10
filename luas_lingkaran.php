@@ -1,10 +1,12 @@
 <?php
 
+namespace App\Math;
+
 class LuasLingkaran {
 
     public const phi = 3.14;
 
-    public int $jari;
+    private int $jari;
 
     public function __construct($isiJari = 1) {
         $this->jari = $isiJari;
@@ -24,15 +26,4 @@ class LuasLingkaran {
         echo "<br/>";
         echo "udah ah cape";
     }
-
 }
-
-$lingkaran = new LuasLingkaran(10);
-//$lingkaran->jari = 10; //input nilai jari-jari
-$lingkaran->tampil("roda"); //tampilkan luas lingkaran
-
-LuasLingkaran::testing();
-
-// $rumus = LuasLingkaran::phi * ($lingkaran->jari * $lingkaran->jari);
-
-// echo "Hasil nya adalah: " . $rumus;
